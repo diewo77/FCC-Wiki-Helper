@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Wiki search interface</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body class="">
+
+<div class="container" id="searchDiv">
+    <div class="row item p-4">
+        <h4 class="">Search for something:</h4>
+        <hr class="m-1 p-0">
+        <form id="search-form">
+            <input type="text" id="search-input" name="search" placeholder="Search..">
+        </form>
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Get a random one</a>
+    </div>
+</div>
+<div class="container">
+    <div class="row hide" id="resultsDiv">
+    </div>
+</div>
+
+<script src="index.js"></script>
+</body>
+
+</html>
